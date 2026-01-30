@@ -17,7 +17,7 @@ const SignUp = () => {
       return;
     }
 
-    await fetch("http://localhost:5000/api/auth/signup", {
+    await fetch("https://react-auth-backend-07hg.onrender.com/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, password }),
