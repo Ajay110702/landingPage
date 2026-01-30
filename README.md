@@ -9,7 +9,6 @@ The application is built as a Single Page Application (SPA) and uses a Node.js +
 🔐 Authentication
 
 User Sign Up with input validation
-
 User Sign In using email and password
 
 Remember Me option to persist login across sessions
