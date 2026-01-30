@@ -17,7 +17,7 @@ const SignUp = () => {
       return;
     }
 
-    await fetch("https://react-auth-backend-07hg.onrender.com/", {
+    await fetch("https://react-auth-backend-07hg.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, password }),
