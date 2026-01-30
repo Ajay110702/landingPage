@@ -135,3 +135,14 @@ Clean React architecture
 Secure backend integration
 
 Responsive and user-friendly UI
+
+
+#screenshots
+
+<img width="1626" height="874" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/235ff648-7883-4ad7-afbe-2759bd33e078" />
+<img width="1673" height="811" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/fea482c4-6ed9-46fb-a17d-adcfef4cbbb9" />
+<img width="1920" height="890" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/83ef9982-cb8a-42df-9518-b348927d33de" />
+<img width="1920" height="884" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/04d5d210-3674-479c-90d8-03e7964b1502" />
+
+
+
