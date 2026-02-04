@@ -1,143 +1,84 @@
-📌 Project Overview
+# React Authentication Landing Page
 
-This project is a React-based landing page application with Sign Up and Sign In authentication, including a “Remember Me” feature.
-The goal of the project is to demonstrate React fundamentals, authentication flow, routing, state management, and responsive UI design following front-end best practices.
+A full-stack React application featuring authentication, protected routes, and a modern responsive UI.  
+Built to demonstrate React fundamentals, clean architecture, and real-world authentication flow.
 
-The application is built as a Single Page Application (SPA) and uses a Node.js + Express backend for authentication.
+---
 
-✨ Features Implemented
-🔐 Authentication
+## 🚀 Project Overview
 
-User Sign Up with input validation
+This project is a **React-based Single Page Application (SPA)** with Sign Up and Sign In authentication, including a **Remember Me** feature.  
+A **Node.js + Express backend** handles authentication and secure user management.
 
-User Sign In using email and password
+The application focuses on:
+- Clean React architecture
+- Authentication & authorization flow
+- Protected routing
+- Responsive UI design
+- Frontend best practices
 
-Remember Me option to persist login across sessions
+---
 
-Secure password handling on backend
+## ✨ Features
 
-Logout functionality to clear authentication state
+### 🔐 Authentication
+- User Sign Up with input validation
+- User Sign In using email & password
+- Remember Me functionality (persistent login)
+- Secure password hashing on backend
+- JWT-based authentication
+- Logout functionality
 
-🧭 Routing & Access Control
+### 🧭 Routing & Access Control
+- Protected Landing Page (authenticated users only)
+- Automatic redirects for unauthenticated users
+- Post-login and post-signup redirection
 
-Protected Landing Page (accessible only to authenticated users)
+### 🎨 User Interface
+- Modern hero section with CTA buttons
+- Features section and footer
+- Dark / Light theme toggle
+- Smooth hover effects and transitions
+- Fully responsive layout (desktop, tablet, mobile)
 
-Redirect unauthenticated users to Sign In page
+### 🧠 Code & Architecture
+- Clean and scalable folder structure
+- State management using React Context API
+- Reusable Protected Route component
+- Separate CSS files for maintainability
+- No external UI libraries used
 
-Redirect users after Sign Up / Sign In based on authentication state
+---
 
-🎨 User Interface
+## 🛠️ Technologies Used
 
-Modern Hero section with CTA buttons
+### Frontend
+- React (Vite)
+- React Router DOM
+- Context API
+- CSS3 (responsive design)
+- LocalStorage (Remember Me & theme persistence)
 
-Features section and footer
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- bcryptjs (password hashing)
+- JSON Web Token (JWT)
 
-Dark / Light theme toggle
+---
 
-Smooth hover effects and transitions
+## 📁 Project Structure
 
-Fully responsive design (desktop, tablet, mobile)
+```bash
+root/
+├── frontend/   # React application
+└── backend/    # Node.js + Express API
 
-🧠 Code & Architecture
 
-Clean folder structure
 
-State management using React Context API
-
-Reusable protected route component
-
-Separate CSS files for better maintainability
-
-🛠️ Technologies Used
-Frontend
-
-React (Vite)
-
-React Router DOM
-
-Context API (state management)
-
-CSS3 (custom styling, responsive design)
-
-LocalStorage (Remember Me & theme persistence)
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-bcryptjs (password hashing)
-
-jsonwebtoken (JWT) (authentication)
-
-
-▶️ How to Run the Project
-
-1️⃣ Clone the Repository
-git clone <repository-url>
-
-2️⃣ Run Backend Server
-cd backend
-npm install
-npm run dev
-
-3️⃣ Run Frontend Application
-cd frontend
-npm install
-npm run dev
-
-
-The app will be available at:
-
-http://localhost:5173
-
-🔄 Application Flow
-
-New users Sign Up → Redirected to Landing Page
-
-Returning users Sign In → Redirected to Landing Page
-
-Logged-in users can Log Out → Redirected to Sign In page
-
-Users cannot access Landing Page without authentication
-
-📱 Responsive Design
-
-The UI is fully responsive and optimized for:
-
-Desktop
-
-Tablet
-
-Mobile devices
-
-Responsiveness is handled using CSS media queries, without external UI libraries.
-
-🌙 Dark / Light Theme
-
-Users can toggle between Dark Mode and Light Mode
-
-Theme preference is saved and persisted across sessions
-
-✅ Conclusion
-
-This project demonstrates:
-
-Real-world authentication flow
-
-Clean React architecture
-
-Secure backend integration
-
-Responsive and user-friendly UI
-
-
-#screenshots
+## screenshots
 
 <img width="1626" height="874" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/235ff648-7883-4ad7-afbe-2759bd33e078" />
 <img width="1673" height="811" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/fea482c4-6ed9-46fb-a17d-adcfef4cbbb9" />
