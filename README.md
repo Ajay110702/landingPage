@@ -69,16 +69,6 @@ The application focuses on:
 
 ---
 
-## 📁 Project Structure
-
-```bash
-root/
-├── frontend/   # React application
-└── backend/    # Node.js + Express API
-
----
-
-
 ## screenshots
 
 <img width="1626" height="874" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/235ff648-7883-4ad7-afbe-2759bd33e078" />
