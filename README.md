@@ -76,6 +76,7 @@ root/
 ├── frontend/   # React application
 └── backend/    # Node.js + Express API
 
+---
 
 
 ## screenshots
