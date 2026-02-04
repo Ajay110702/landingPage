@@ -69,6 +69,24 @@ The application focuses on:
 
 ---
 
+## project structure
+
+root/
+├── frontend/   # React + Vite application
+└── backend/    # Node.js + Express API
+
+## backend setup and run
+- cd backend
+- npm install
+- npm run dev
+
+## frontend setup and run
+- cd frontend
+- npm run dev
+- live link: http://localhost:5173
+
+
+
 ## screenshots
 
 <img width="1626" height="874" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/235ff648-7883-4ad7-afbe-2759bd33e078" />
