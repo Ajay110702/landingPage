@@ -72,8 +72,8 @@ The application focuses on:
 ## project structure
 
 root/
-├── frontend/   # React + Vite application
-└── backend/    # Node.js + Express API
+- ├── frontend/   # React + Vite application
+- └── backend/    # Node.js + Express API
 
 ## backend setup and run
 - cd backend
